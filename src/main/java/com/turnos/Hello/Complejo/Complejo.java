@@ -46,5 +46,30 @@ public class Complejo {
         
     }
 
+    public void actualizarDatos(DTOActualizarComplejo dtoActualizarComplejo){
+        if (dtoActualizarComplejo.nombre() != null){
+            this.nombre=dtoActualizarComplejo.nombre();
+        }
+        if (dtoActualizarComplejo.apellido() != null){
+            this.apellido=dtoActualizarComplejo.apellido();
+        }
+        if (dtoActualizarComplejo.email() != null){
+            this.email=dtoActualizarComplejo.email();
+        }
+        if (dtoActualizarComplejo.tel() != null){
+            this.tel=dtoActualizarComplejo.tel();
+        }
+        if (dtoActualizarComplejo.cantCanchas() != null) {
+            this.cantCanchas=dtoActualizarComplejo.cantCanchas();
+        }
+        if (dtoActualizarComplejo.especialidad() != null){
+            this.especialidad=dtoActualizarComplejo.especialidad();
+        }
+
+
+    }
 
 }
+
+
+
