@@ -36,6 +36,12 @@ public class Complejocontroller {
  complejoRepository.save(new Complejo(datosRespuestaComplejo));
 
     }
+
+    @DeleteMapping("/{id}")
+    public ResponseEntity<?> delete(@PathVariable Long id){
+        complejoRepository.deleteById(id);
+        return ResponseEntity.ok(null);
+    }
 }
 
 
