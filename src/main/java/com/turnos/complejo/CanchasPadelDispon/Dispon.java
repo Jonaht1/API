@@ -1,4 +1,4 @@
-package CanchasPadelDispon;
+package com.turnos.complejo.CanchasPadelDispon;
 
 public class Dispon {
 // si selecciona uno ya dado no se lo doy desde el front

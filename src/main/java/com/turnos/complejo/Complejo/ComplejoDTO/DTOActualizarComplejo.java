@@ -1,4 +1,4 @@
-package com.turnos.Hello.Complejo;
+package com.turnos.complejo.Complejo.ComplejoDTO;
 
 import jakarta.validation.constraints.NotNull;
 

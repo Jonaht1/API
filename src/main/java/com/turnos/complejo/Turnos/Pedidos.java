@@ -1,7 +1,7 @@
-package Turnos;
+package com.turnos.complejo.Turnos;
 
-import CanchasPadelDispon.Dispon;
-import Clientes.Client;
+import com.turnos.complejo.CanchasPadelDispon.Dispon;
+import com.turnos.complejo.Clientes.Client;
 import jakarta.persistence.*;
 import org.springframework.data.annotation.Id;
 

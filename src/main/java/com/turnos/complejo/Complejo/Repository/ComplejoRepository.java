@@ -1,5 +1,6 @@
-package com.turnos.Hello.Complejo;
+package com.turnos.complejo.Complejo.Repository;
 
+import com.turnos.complejo.Complejo.Entidad.Complejo;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

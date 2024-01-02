@@ -1,6 +1,8 @@
-package com.turnos.Hello.Complejo;
+package com.turnos.complejo.Complejo.Entidad;
 
 
+import com.turnos.complejo.Complejo.ComplejoDTO.DTOActualizarComplejo;
+import com.turnos.complejo.Complejo.ComplejoDTO.DatosRespuestaComplejo;
 import jakarta.persistence.*;
 import lombok.AllArgsConstructor;
 import lombok.EqualsAndHashCode;
@@ -9,7 +11,7 @@ import lombok.NoArgsConstructor;
 
 
 @Table(name = "complejo")
-@Entity(name = "com/turnos/Hello/Complejo")
+@Entity(name = "/Complejo")
 @Getter
 @NoArgsConstructor
 @AllArgsConstructor

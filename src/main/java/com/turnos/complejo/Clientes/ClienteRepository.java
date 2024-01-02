@@ -1,4 +1,4 @@
-package Clientes;
+package com.turnos.complejo.Clientes;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 

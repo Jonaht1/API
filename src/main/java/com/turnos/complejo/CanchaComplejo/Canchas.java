@@ -1,6 +1,6 @@
-package CanchaComplejo;
+package com.turnos.complejo.CanchaComplejo;
 
-import com.turnos.Hello.Complejo.Complejo;
+import com.turnos.complejo.Complejo.Entidad.Complejo;
 import jakarta.persistence.FetchType;
 import jakarta.persistence.JoinColumn;
 import jakarta.persistence.ManyToOne;

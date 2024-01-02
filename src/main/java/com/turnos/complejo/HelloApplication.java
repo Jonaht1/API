@@ -1,4 +1,4 @@
-package com.turnos.Hello;
+package com.turnos.complejo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
