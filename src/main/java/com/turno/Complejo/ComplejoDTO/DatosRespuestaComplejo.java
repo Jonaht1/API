@@ -1,5 +1,6 @@
-package com.turnos.complejo.Complejo.ComplejoDTO;
+package com.turno.Complejo.ComplejoDTO;
 
+import com.turno.Complejo.Entidad.Complejo;
 import lombok.AllArgsConstructor;
 
 import lombok.Builder;
@@ -10,12 +11,12 @@ public record DatosRespuestaComplejo(Long idComplejo, String nombre, String apel
                                      String email, Integer tel, Integer cantCanchas, String especialidad){
 
 
-    /*public DatosRespuestaComplejo(Complejo complejo){
+   public DatosRespuestaComplejo(Complejo complejo){
         this(complejo.getIdComplejo(),
                 complejo.getNombre(),
                 complejo.getApellido(),
                 complejo.getEmail(), complejo.getTel(), complejo.getCantCanchas(), complejo.getEspecialidad());
-    }*/
+    }
 
 
 }

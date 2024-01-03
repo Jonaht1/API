@@ -1,18 +1,17 @@
-package com.turnos.complejo.Complejo.Entidad;
+package com.turno.Complejo.Entidad;
 
 
-import com.turnos.complejo.Complejo.ComplejoDTO.DTOActualizarComplejo;
-import com.turnos.complejo.Complejo.ComplejoDTO.DatosRespuestaComplejo;
+import com.turno.Complejo.ComplejoDTO.DTOComplejo;
+import com.turno.Complejo.ComplejoDTO.DatosRespuestaComplejo;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
-import lombok.EqualsAndHashCode;
-import lombok.Getter;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 
 @Table(name = "complejo")
-@Entity(name = "/Complejo")
+@Entity(name = "Complejo")
 @Getter
+@Setter
+@Builder
 @NoArgsConstructor
 @AllArgsConstructor
 @EqualsAndHashCode
@@ -48,7 +47,7 @@ public class Complejo {
         
     }
 
-    public void actualizarDatos(DTOActualizarComplejo dtoActualizarComplejo){
+    public void actualizarDatos(DTOComplejo dtoActualizarComplejo){
         if (dtoActualizarComplejo.nombre() != null){
             this.nombre=dtoActualizarComplejo.nombre();
         }
